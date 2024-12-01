@@ -23,6 +23,11 @@ body, html {
   display: flex;
   align-items:center;
   margin: 30px;
+  cursor: pointer;
+}
+
+.profile:hover{
+ filter: drop-shadow(2px 2px 10px #9000ffad);
 }
 
 .nav-links {
@@ -32,6 +37,7 @@ body, html {
   font-size: 20px;
   gap: 100px;
   vertical-align: middle;
+  transition: 0.25s;
 }
 
 .nav-links button {
@@ -43,6 +49,18 @@ body, html {
   border: none;
   cursor: pointer;
 }
+
+
+li > button:hover {
+  background-color: #533d8800;
+  color: purple;
+  box-shadow: 10px 10px 1x #9000ff;
+  font-size: 25px;
+  transition: 0.15s;
+  font-weight: bold;
+  filter: drop-shadow(15px 5px 15px #9000ff);
+}
+
 
 .main-content {
   display: flex;
@@ -99,6 +117,7 @@ body, html {
 
 .read-more-btn:hover {
   background-color: #533d88;
+  box-shadow: 5px 5px 15px #a15ce7 ;
 }
 
 .footer {
