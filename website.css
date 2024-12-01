@@ -116,7 +116,11 @@ body, html {
 }
 .art-by{
   display: block;
+  font-size: 20px;
 }
 .time{
   display: block;
+  font-size: 20px;
 }
+
+
