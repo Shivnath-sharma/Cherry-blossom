@@ -97,11 +97,11 @@ li > button:hover {
 
 .read-more-btn {
   padding: 10px 20px;
-  margin-left: 70px;
+  margin-left: 100px;
   border:none;
   transition: ease-in-out 0.3s;
   background-color: transparent;
-  color: #9000ff;
+  color: #533d88;
   font-weight: bolder;
   font-size: 20px;
   cursor: pointer;
@@ -109,8 +109,9 @@ li > button:hover {
 
 .read-more-btn:hover {
   transform: scale(1.2) rotate(0deg);
-  background-color: #9000ff;
+  background-color: #533d88;
   color: white;
+  margin-left: 115px;
 }
 
 .footer {
