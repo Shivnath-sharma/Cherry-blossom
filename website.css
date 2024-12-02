@@ -27,13 +27,15 @@ body, html {
 }
 
 .nav-links {
-  margin-top: 40px;
   list-style: none;
   display: flex;
   font-size: 20px;
-  gap: 100px;
+  padding: 5px 20px;
+  margin-left: 10px;
+  gap: 20px;
   vertical-align: middle;
-  transition: 0.25s;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .nav-links button {
@@ -44,13 +46,17 @@ body, html {
   font-size: 25px;
   border: none;
   cursor: pointer;
+  padding: 20px 30px;
+  border-radius: 100px;
+  transition: background-color 0.25s, box-shadow 0.15s;
 }
 
 
 li > button:hover {
-  background-color: #533d8800;
-  color: purple;
-  transition: 0.15s;
+  background-color: #533d88;
+  color: white;
+  box-shadow: 5px 5px 13px #533d889f;
+
 }
 
 
