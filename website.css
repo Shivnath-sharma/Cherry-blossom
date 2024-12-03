@@ -69,18 +69,12 @@ body, html {
   margin: 0;
 }
 
-.title-head {
-  color: #533d88;
-  font-size: 25px;
-  margin: 100px 0 0 130px;
-}
-
 .title {
   width: 400px;
   font-size: 100px;
   color: #533d88;
   font-weight: bold;
-  margin: 0 0 0 100px;
+  margin: 100px 0 0 100px;
   display: flex;
 }
 
